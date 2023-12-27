@@ -4,4 +4,9 @@
   max-width: 1140px;
   margin: auto;
   display: flex;
+  flex-direction: column;
+  gap: 48px;
+  @media (min-width: $desktop) {
+    flex-direction: row;
+  }
 }
