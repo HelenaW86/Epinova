@@ -1,0 +1,36 @@
+.cards-section {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-bottom: 48px;
+  .card-container {
+    margin: auto;
+    border-radius: 0px 24px 0px 24px;
+    border-bottom: 4px solid #c4dbdb;
+    background: #fff;
+    text-align: left;
+    .card-top-image {
+      background-image: url("../../assets/slussen.png");
+      background-size: cover;
+      background-position: center left;
+      height: 185px;
+      border-radius: 0 24px 0 0;
+    }
+    .card-text {
+      padding: 32px 24px 24px;
+      h2 {
+        margin-bottom: 8px;
+      }
+      p {
+        line-height: 27px;
+      }
+    }
+    @media (min-width: $desktop) {
+      max-width: 33.33%;
+    }
+  }
+  @media (min-width: $desktop) {
+    flex-direction: row;
+    margin-bottom: 0;
+  }
+}

@@ -1,12 +1,21 @@
 .main {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   max-width: 1140px;
   margin: auto;
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  gap: 48px;
-  @media (min-width: $desktop) {
-    flex-direction: row;
+  text-align: center;
+  h1 {
+    color: #146e6e;
+    font-size: 35px;
+    line-height: 28px;
+    margin: 48px auto 64px;
+    @media (min-width: $desktop) {
+      margin-top: 0;
+      line-height: 27px;
+      font-size: 48px;
+    }
   }
 }

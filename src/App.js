@@ -1,11 +1,10 @@
-import { Card } from "./components/Card";
+import { Cards } from "./components/Cards";
 
 function App() {
   return (
     <main className="main">
-      <Card />
-      <Card />
-      <Card />
+      <h1>Here’s the section heading</h1>
+      <Cards />
     </main>
   );
 }
