@@ -1,0 +1,17 @@
+.card-button {
+  display: flex;
+  padding: 12px 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin-top: 24px;
+  background: #c4dbdb;
+  text-decoration: none;
+  color: #000;
+  &:active {
+    color: #000;
+  }
+  &:focus {
+    color: #000;
+  }
+}
